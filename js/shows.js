@@ -16,9 +16,9 @@ export const SHOWS = [
     gallery: ['img/nighticket-live.jpg', 'img/clapham-grand.jpg', 'img/nighticket.jpg', 'img/nighticket-run.jpg'],
     ticketUrl: null,
     note: {
-      en: 'Our first overseas special: three Chinese independent acts in one night, with Alan Ip joining Nighticket as a guest.',
-      zh: '赴汇是我们首个境外专场：三支华语独立乐队同台，Alan Ip 担任券·夜场的嘉宾。',
-      zht: '赴匯是我們首個境外專場：三支華語獨立樂隊同台，Alan Ip 擔任券·夜場的嘉賓。',
+      en: 'Our first overseas special: three Chinese independent acts in one night.',
+      zh: '赴汇是我们首个境外专场：三支华语独立乐队同台。',
+      zht: '赴匯是我們首個境外專場：三支華語獨立樂隊同台。',
     },
   },
   {
