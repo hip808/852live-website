@@ -98,7 +98,7 @@ body::after { content: ""; position: fixed; inset: 0; pointer-events: none; z-in
 /* shows */
 .shows { display: grid; gap: clamp(56px, 9vw, 110px); }
 .shows-upcoming { display: grid; gap: 56px; margin-bottom: 20px; }
-.show { display: grid; gap: 26px; align-items: start; }
+.show { display: grid; grid-template-columns: minmax(0, 1fr); gap: 26px; align-items: start; }
 .show-poster { margin: 0; position: relative; background: var(--bg-2); border: 1px solid var(--line); }
 .show-poster img { width: 100%; height: auto; }
 .text-poster { aspect-ratio: 3 / 4; display: grid; place-items: center; padding: 24px; text-align: center; background: linear-gradient(160deg, var(--orange-deep), #1a0e04); font: 700 clamp(22px, 5vw, 34px)/1.2 var(--head); }
