@@ -1,0 +1,32 @@
+# 852 Live website
+
+Plain static site: no build step, no dependencies.
+
+## Add a new show
+Open `js/shows.js`, copy one block inside `SHOWS`, change the fields and save. Put the poster in `img/`.
+- A show dated today or later becomes the **Next show** in the hero and appears under Shows. Past ones move down by themselves.
+- Paste the ticket link in `ticketUrl` to get a **Tickets** button (`null` hides it).
+- `image: null` shows a styled text card instead of a poster.
+
+## Edit text
+All page text (English and 中文) is in `js/i18n.js`. Contact details: search for `852livemusic@gmail.com` in `index.html` and `js/main.js`.
+
+## Preview on your computer
+Modules need a web server, so double-clicking `index.html` will not work:
+
+```bash
+python3 -m http.server 8852
+```
+then open http://127.0.0.1:8852
+
+## Publish for free
+Drag this folder onto https://app.netlify.com/drop (or use Cloudflare Pages). Add your own domain later in the host's settings.
+After you have a domain, change `og:image` in `index.html` to the full address, e.g. `https://yourdomain/img/fuhui-banner.jpg`, so link previews show the image.
+
+## Still to do
+- Mailing list: the sign-up box is a disabled placeholder. Pick a service (Buttondown, Mailchimp, etc.) and replace the form in `index.html`.
+
+## Tests
+```bash
+npm test
+```
