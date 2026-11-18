@@ -1,5 +1,5 @@
-import { SHOWS, splitShows } from './shows.js?v=9';
-import { STRINGS, pickLanguage } from './i18n.js?v=9';
+import { SHOWS, splitShows } from './shows.js?v=10';
+import { STRINGS, pickLanguage } from './i18n.js?v=10';
 
 const IG = 'https://www.instagram.com/852livemusic/';
 const EMAIL = '852livemusic@gmail.com';
