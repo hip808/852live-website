@@ -1,5 +1,5 @@
-import { SHOWS, splitShows } from './shows.js?v=10';
-import { STRINGS, pickLanguage } from './i18n.js?v=10';
+import { SHOWS, splitShows } from './shows.js?v=11';
+import { STRINGS, pickLanguage } from './i18n.js?v=11';
 
 const IG = 'https://www.instagram.com/852livemusic/';
 const EMAIL = '852livemusic@gmail.com';
@@ -66,7 +66,9 @@ function showCard(s, withTickets) {
     s.lineup.length ? h('ul', { class: 'chips' }, (lang === 'zht' && s.lineupZht || s.lineup).map((n) => h('li', {}, n))) : null,
     withTickets && s.ticketUrl && h('a', { class: 'btn', href: s.ticketUrl, target: '_blank', rel: 'noopener' }, t('btn_tickets')),
     s.gallery.length ? h('p', { class: 'mini' }, t('past_gallery')) : null,
-    s.gallery.length ? h('div', { class: 'gallery' }, s.gallery.map((src) => h('img', { src, alt: '', loading: 'lazy' }))) : null);
+    s.gallery.length ? h('div', { class: 'gallery' }, s.gallery.map((g) => (typeof g === 'string'
+      ? h('img', { src: g, alt: '', loading: 'lazy' })
+      : h('figure', { class: 'shot' }, h('img', { src: g.src, alt: (lang === 'zht' && g.capZht) || g.cap, loading: 'lazy' }), h('figcaption', {}, (lang === 'zht' && g.capZht) || g.cap))))) : null);
   return h('article', { class: 'show reveal' }, h('figure', { class: 'show-poster' }, poster), info);
 }
 

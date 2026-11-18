@@ -13,7 +13,13 @@ export const SHOWS = [
     lineupZht: ['Dabo Lang 大波浪', 'Nighticket 券·夜場', 'RadioMars 火星電台'],
     image: 'img/fuhui-poster.jpg',
     alt: { en: 'FUHUI poster: Nighticket, Dabo Lang and RadioMars live in London', zh: '赴汇海报：券·夜场、大波浪、火星电台伦敦专场', zht: '赴匯海報：券·夜場、大波浪、火星電台倫敦專場' },
-    gallery: ['img/nighticket-live.jpg', 'img/clapham-grand.jpg', 'img/nighticket.jpg', 'img/nighticket-run.jpg'],
+    gallery: [
+      'img/nighticket-live.jpg', 'img/clapham-grand.jpg', 'img/nighticket.jpg', 'img/nighticket-run.jpg',
+      { src: 'img/radiomars-1.jpg', cap: 'RadioMars 火星电台', capZht: 'RadioMars 火星電台' },
+      { src: 'img/radiomars-2.jpg', cap: 'RadioMars 火星电台', capZht: 'RadioMars 火星電台' },
+      { src: 'img/dabolang-1.jpg', cap: 'Dabo Lang 大波浪' },
+      { src: 'img/dabolang-2.jpg', cap: 'Dabo Lang 大波浪' },
+    ],
     ticketUrl: null,
     note: {
       en: 'Our first overseas special: three Chinese independent acts in one night.',
