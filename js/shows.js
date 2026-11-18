@@ -37,7 +37,10 @@ export const SHOWS = [
     lineupZht: ['Wu Tiao Ren 五條人'],
     image: 'img/wutiaoren-poster.jpg',
     alt: { en: 'Wu Tiao Ren Some Scenery Earth Tour UK 2026 poster with a red plastic bag over London', zh: '五条人地球巡演英国站2026海报', zht: '五條人地球巡演英國站2026海報' },
-    gallery: [],
+    gallery: [
+      { src: 'img/wutiaoren-1.jpg', cap: 'Wu Tiao Ren 五条人', capZht: 'Wu Tiao Ren 五條人' },
+      { src: 'img/wutiaoren-2.jpg', cap: 'Wu Tiao Ren 五条人', capZht: 'Wu Tiao Ren 五條人' },
+    ],
     ticketUrl: null,
     note: {
       en: 'Two UK nights: Manchester (The Bread Shed, 8 May) and London (Dingwalls, 9 May).',
