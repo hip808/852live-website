@@ -20,8 +20,8 @@ python3 -m http.server 8852
 then open http://127.0.0.1:8852
 
 ## Publish for free
-Drag this folder onto https://app.netlify.com/drop (or use Cloudflare Pages). Add your own domain later in the host's settings.
-After you have a domain, change `og:image` in `index.html` to the full address, e.g. `https://yourdomain/img/fuhui-banner.jpg`, so link previews show the image.
+Live at https://852live.net (Cloudflare Pages, auto-deploys from GitHub repo `hip808/852live-website`, branch `main`, no build command, output folder `/`).
+852live.co.uk redirects to 852live.net (Cloudflare Redirect Rule). Email: Cloudflare Email Routing on 852live.net.
 
 ## Still to do
 - Mailing list: the sign-up box is a disabled placeholder. Pick a service (Buttondown, Mailchimp, etc.) and replace the form in `index.html`.
