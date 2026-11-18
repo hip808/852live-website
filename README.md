@@ -23,8 +23,12 @@ then open http://127.0.0.1:8852
 Live at https://852live.net (Cloudflare Pages, auto-deploys from GitHub repo `hip808/852live-website`, branch `main`, no build command, output folder `/`).
 852live.co.uk redirects to 852live.net (Cloudflare Redirect Rule). Email: Cloudflare Email Routing on 852live.net.
 
+## Services
+- Mailing list: Buttondown (username `852live`); the form in `index.html` posts to it. Sending domain: `news.852live.net`.
+- Privacy page: `privacy.html` (English, 简体, 繁體). Update it if you add analytics, ticketing or other data collection.
+
 ## Still to do
-- Mailing list: the sign-up box is a disabled placeholder. Pick a service (Buttondown, Mailchimp, etc.) and replace the form in `index.html`.
+- Frankie's address (`frankie@852live.net`) in Cloudflare Email Routing; set the catch-all if wanted.
 
 ## Tests
 ```bash
