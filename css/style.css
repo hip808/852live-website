@@ -171,3 +171,13 @@ body::after { content: ""; position: fixed; inset: 0; pointer-events: none; z-in
 .shot { margin: 0; flex: none; scroll-snap-align: start; }
 .shot img { display: block; height: clamp(150px, 26vw, 220px); width: auto; max-width: none; border: 1px solid var(--line); filter: saturate(.9); }
 .shot figcaption { margin-top: 6px; font: 600 12px var(--head); letter-spacing: .08em; text-transform: uppercase; color: var(--cream-dim); }
+
+/* privacy page */
+.legal { padding: 40px 0 72px; max-width: 760px; }
+.legal a { color: var(--orange); }
+.legal h1 { font-family: var(--head); font-size: clamp(32px, 6vw, 48px); margin: 24px 0 4px; }
+.legal h2 { font-family: var(--head); font-size: 20px; margin: 1.8em 0 .4em; }
+.legal ul { padding-left: 1.2em; }
+.legal li { margin: .5em 0; }
+.legal .langs { margin: 0 0 8px; width: max-content; }
+.legal [hidden] { display: none; }

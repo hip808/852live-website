@@ -33,6 +33,7 @@ export const STRINGS = {
     partners_kicker: 'Partners & sponsors', partners_title: 'Stand next to the sound.',
     partners_body: 'Put your brand beside the most exciting independent music from Asia. Venues, festivals, media and sponsors: let’s talk.',
     partners_btn: 'Start a conversation',
+    footer_privacy: 'Privacy',
     footer_rights: '© 852 Live LTD. All rights reserved.',
   },
   zh: {
@@ -62,6 +63,7 @@ export const STRINGS = {
     partners_kicker: '合作与赞助', partners_title: '与声音同台。',
     partners_body: '让你的品牌与亚洲最精彩的独立音乐并肩。场地、音乐节、媒体与赞助伙伴，欢迎联系。',
     partners_btn: '开始对话',
+    footer_privacy: '隐私政策',
     footer_rights: '© 852 Live LTD 版权所有。',
   },
   zht: {
@@ -91,6 +93,7 @@ export const STRINGS = {
     partners_kicker: '合作與贊助', partners_title: '與聲音同台。',
     partners_body: '讓你的品牌與亞洲最精彩的獨立音樂並肩。場地、音樂節、媒體與贊助夥伴，歡迎聯絡。',
     partners_btn: '開始對話',
+    footer_privacy: '私隱政策',
     footer_rights: '© 852 Live LTD 版權所有。',
   },
 };
