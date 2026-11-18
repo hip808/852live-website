@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>852 Live | Music Connector</title>
+  <meta name="description" content="852 Live LTD is a concert promoter bringing Chinese and Asian independent bands to stages in the UK and around the world. Promoting live music since 2007.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta property="og:title" content="852 Live | Music Connector">
+  <meta property="og:description" content="Live music from Asia’s independent scenes, on stages around the world.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://852live.net/img/fuhui-banner.jpg">
+  <meta property="og:url" content="https://852live.net/">
+  <link rel="canonical" href="https://852live.net/">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=11">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="852 Live, home"><img src="img/logo-light.png" alt="852 Live Music Connector" width="720" height="138"></a>
+  <nav class="nav-links" id="nav-links" aria-label="Main">
+    <a href="#shows" data-i18n="nav_shows">Shows</a>
+    <a href="#about" data-i18n="nav_about">About</a>
+    <a href="#artists" data-i18n="nav_artists">Artists</a>
+    <a href="#partners" data-i18n="nav_partners">Partners</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+  </nav>
+  <div class="langs" id="langs" role="group" aria-label="Language / 語言">
+    <button type="button" data-lang="en" lang="en">EN</button>
+    <button type="button" data-lang="zh" lang="zh-Hans">简</button>
+    <button type="button" data-lang="zht" lang="zh-Hant">繁</button>
+  </div>
+  <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu"><span></span><span></span></button>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <svg class="motif" viewBox="0 0 1200 800" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
+      <g fill="none" stroke="#f2e8d5" stroke-width="2.5" stroke-linecap="round">
+        <path class="draw" d="M1200 120 L930 210 L760 470 L520 560 L340 720"/>
+        <path class="draw d2" d="M1200 520 L1010 600 L860 560"/>
+      </g>
+      <g fill="#f2e8d5"><circle cx="930" cy="210" r="11"/><circle cx="760" cy="470" r="11"/><circle cx="520" cy="560" r="11"/><circle cx="1010" cy="600" r="11"/><circle cx="860" cy="560" r="11"/><circle cx="340" cy="720" r="11"/></g>
+    </svg>
+    <div class="hero-inner">
+      <p class="eyebrow">852 Live LTD · Hong Kong · London</p>
+      <h1 class="sr-only">852 Live, Music Connector</h1>
+      <img class="hero-logo" src="img/logo-light.png" alt="" width="720" height="138">
+      <p class="hero-sub" data-i18n="hero_sub">Live music from Asia’s independent scenes, on stages around the world.</p>
+      <div id="hero-next" class="hero-next"></div>
+    </div>
+    <a class="scroll-cue" href="#shows" aria-label="Scroll to shows"><span></span></a>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>DABO LANG 大波浪</span><i></i><span>NIGHTICKET 券·夜场</span><i></i><span>RADIOMARS 火星电台</span><i></i><span>WU TIAO REN 五条人</span><i></i><span>SUPER MARKET 超级市场</span><i></i><span>SHII</span><i></i>
+      <span>DABO LANG 大波浪</span><i></i><span>NIGHTICKET 券·夜场</span><i></i><span>RADIOMARS 火星电台</span><i></i><span>WU TIAO REN 五条人</span><i></i><span>SUPER MARKET 超级市场</span><i></i><span>SHII</span><i></i>
+    </div>
+  </div>
+
+  <section class="section" id="shows">
+    <div class="wrap">
+      <h2 class="section-title reveal" data-i18n="shows_title">Shows</h2>
+      <div id="shows-upcoming" class="shows-upcoming"></div>
+      <h3 class="subhead reveal" data-i18n="shows_past">Past shows</h3>
+      <div id="shows-past" class="shows"></div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <div class="reveal">
+        <p class="kicker" data-i18n="about_kicker">About</p>
+        <h2 class="section-title" data-i18n="about_title">The music connector.</h2>
+        <h3 class="about-sub" data-i18n="about_sub"></h3>
+        <p class="lead" data-i18n="about_body"></p>
+        <div class="founder"><h3 data-i18n="f1_name"></h3><p data-i18n="f1_bio"></p></div>
+        <div class="founder"><h3 data-i18n="f2_name"></h3><p data-i18n="f2_bio"></p></div>
+        <p class="lead" data-i18n="about_body2"></p>
+      </div>
+      <dl class="stats reveal">
+        <div><dt>2007</dt><dd data-i18n="stat1">promoting live music since</dd></div>
+        <div><dt>3</dt><dd data-i18n="stat2">London shows since 2025</dd></div>
+        <div><dt>7</dt><dd data-i18n="stat3">artists on our stages</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section join" id="join">
+    <div class="wrap join-grid">
+      <article class="card reveal" id="fans">
+        <p class="kicker" data-i18n="fans_kicker">For fans</p>
+        <h2 data-i18n="fans_title">Be first to know.</h2>
+        <p data-i18n="fans_body"></p>
+        <form class="mail" onsubmit="return false" aria-label="Mailing list (coming soon)">
+          <input type="email" placeholder="you@example.com" disabled aria-label="Email address">
+          <button type="button" class="btn" disabled>→</button>
+        </form>
+        <p class="small" data-i18n="mail_soon">Mailing list coming soon.</p>
+        <a class="btn" href="https://www.instagram.com/852livemusic/" target="_blank" rel="noopener" data-i18n="btn_ig">Follow on Instagram</a>
+      </article>
+      <article class="card reveal" id="artists">
+        <p class="kicker" data-i18n="artists_kicker">Artists &amp; labels</p>
+        <h2 data-i18n="artists_title">Bring your music to the world.</h2>
+        <p data-i18n="artists_body"></p>
+        <a class="btn" href="mailto:852livemusic@gmail.com?subject=Artist%20enquiry" data-i18n="artists_btn">Send us your music</a>
+      </article>
+      <article class="card reveal" id="partners">
+        <p class="kicker" data-i18n="partners_kicker">Partners &amp; sponsors</p>
+        <h2 data-i18n="partners_title">Stand next to the sound.</h2>
+        <p data-i18n="partners_body"></p>
+        <a class="btn" href="mailto:852livemusic@gmail.com?subject=Partnership%20enquiry" data-i18n="partners_btn">Start a conversation</a>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="wrap">
+    <img src="img/logo-light.png" alt="852 Live Music Connector" class="footer-logo" width="720" height="138" loading="lazy">
+    <a class="big-mail" href="mailto:852livemusic@gmail.com">852livemusic@gmail.com</a>
+    <p class="footer-links"><a href="https://www.instagram.com/852livemusic/" target="_blank" rel="noopener">Instagram @852livemusic</a></p>
+    <p class="small" data-i18n="footer_rights">© 852 Live LTD. All rights reserved.</p>
+  </div>
+</footer>
+
+<script type="module" src="js/main.js?v=12"></script>
+</body>
+</html>
