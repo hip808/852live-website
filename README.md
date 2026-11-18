@@ -9,7 +9,7 @@ Open `js/shows.js`, copy one block inside `SHOWS`, change the fields and save. P
 - `image: null` shows a styled text card instead of a poster.
 
 ## Edit text
-All page text (English and 中文) is in `js/i18n.js`. Contact details: search for `852livemusic@gmail.com` in `index.html` and `js/main.js`.
+All page text (English and 中文) is in `js/i18n.js`. Contact details: search for `info@852live.net` in `index.html` and `js/main.js`.
 
 ## Preview on your computer
 Modules need a web server, so double-clicking `index.html` will not work:
